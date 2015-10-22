@@ -1,20 +1,20 @@
 Package.describe({
     name: 'loftsteinn:framework7-material',
-    version: '1.2.0',
-    summary: 'Framework7 v1.2.0 for Meteor using the Material design theme',
+    version: '1.3.1',
+    summary: 'Framework7 v1.3.1 for Meteor using the Material design theme',
     git: 'https://github.com/oskarszoon/meteor-framework7-material',
     documentation: 'README.md'
 });
 
 Package.onUse(function (api) {
-    api.add_files('framework7/dist/js/framework7.js', 'client');
+    api.addFiles('framework7/dist/js/framework7.js', 'client');
 
-    api.add_files([
+    api.addFiles([
         'framework7/dist/css/framework7.material.css',
         'framework7/dist/css/framework7.material.colors.css'
     ], 'client');
 
-    api.add_files([
+    api.addAssets([
         'framework7/dist/img/i-f7-material.png',
         'framework7/dist/img/i-form-calendar-material.svg',
         'framework7/dist/img/i-form-comment-material.svg',
@@ -27,5 +27,4 @@ Package.onUse(function (api) {
         'framework7/dist/img/i-form-toggle-material.svg',
         'framework7/dist/img/i-form-url-material.svg'
     ], 'client');
-
 });
