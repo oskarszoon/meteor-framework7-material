@@ -1,7 +1,7 @@
 Package.describe({
     name: 'loftsteinn:framework7-material',
-    version: '1.3.1',
-    summary: 'Framework7 v1.3.1 for Meteor using the Material design theme',
+    version: '1.3.5',
+    summary: 'Framework7 v1.3.5 for Meteor using the Material design theme',
     git: 'https://github.com/oskarszoon/meteor-framework7-material',
     documentation: 'README.md'
 });
