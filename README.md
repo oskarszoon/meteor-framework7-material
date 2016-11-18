@@ -1,5 +1,5 @@
 # meteor-framework7-material
-[Framework 7](http://www.idangero.us/framework7/) v1.4.2 for Meteor using the Material design theme
+[Framework 7](http://www.idangero.us/framework7/) v1.5.0 for Meteor using the Material design theme
 
 # How to use it?
 
